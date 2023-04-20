@@ -6,7 +6,7 @@ app.use(express.json());
 let dispositivos = {}
 
 app.get("/", (req, res) => {
-  res.send(`Bem vindo a API de Devices!`);
+  res.send(`Testando atualização! :)`);
 });
 
 app.get("/devices", (req, res) => {
